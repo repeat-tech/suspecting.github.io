@@ -11,8 +11,9 @@ small {
 
 
 fieldset {
-  width: 50%; 
+  width: 25%; 
   margin: auto;
+  text-align: left;
 }
 
 legend {
