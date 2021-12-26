@@ -2,11 +2,21 @@ body {
   background: black;
   color: white;
   font-family: "MS PGothic", Arial, Verdana, Tahoma, "Times New Roman";
+  text-align: center;
 }
+
+small {
+  color: #272727;
+}
+
 
 fieldset {
   width: 50%; 
   margin: auto;
+}
+
+legend {
+  text-align: left;
 }
 
 a {
