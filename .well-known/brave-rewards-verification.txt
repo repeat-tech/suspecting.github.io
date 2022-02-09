@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: suspecting.cf
-Token: 21838eeb0241d9ec6393b98b03051aeb56a8908ebc6c3b08554d4ce91edd8ec5
