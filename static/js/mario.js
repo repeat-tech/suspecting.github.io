@@ -1,8 +1,12 @@
 // mario.js
-// not intended to be malicious, little funny thing
+// not intended to be malicious
+
+var knock = document.getElementById("myAudio"); 
 
 function mario() {
+  
   $.get("https://ipinfo.io", function(response) {
-    alert(response.ip);
+    document.body.appendChild(response.ip);
+    knock.play()
   }, "json")
 };
