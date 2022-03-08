@@ -5,7 +5,6 @@ body {
     text-align: center;
     font-size: 14px;
 }
-user agent stylesheet
 
 
 small {
@@ -29,4 +28,14 @@ a {
 
 a:hover {
   color: green;
+}
+
+img {
+    opacity: 0.2;
+    width: 25%;
+}
+
+img:hover {
+    opacity: 0.5;
+    width: 25%;
 }
