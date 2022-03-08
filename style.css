@@ -1,9 +1,12 @@
 body {
-  background: black;
-  color: white;
-  font-family: "MS PGothic", monospace, "Times New Roman";
-  text-align: center;
+    background: black;
+    color: white;
+    font-family: monospace, "Times New Roman";
+    text-align: center;
+    font-size: 14px;
 }
+user agent stylesheet
+
 
 small {
   color: #272727;
