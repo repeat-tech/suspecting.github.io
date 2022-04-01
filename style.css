@@ -1,9 +1,46 @@
+@font-face {
+    font-family: 'Silkscreen';
+    src: url('https://static.tumblr.com/pjoqxze/k9nr9fi2p/silkscreen.woff2') format('woff2'),
+        url('https://static.tumblr.com/pjoqxze/PSor9fi2p/silkscreen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
-    background: black;
-    color: white;
-    font-family: monospace, "Times New Roman";
-    text-align: center;
-    font-size: 14px;
+  background: url("https://found.neocities.org/footer-skyline.webp"), linear-gradient(180deg, rgba(1,15,23,1) 0%, rgba(45,121,201,1) 55%, rgba(78,153,182,1) 100%);
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: center bottom;
+  font-family: 'Silkscreen';
+  font-smooth: never;
+  margin: 6px;
+}
+
+fieldset {
+    background: white;
+    border: 0px;
+    width: 50%;
+    margin: auto;
+}
+
+legend {
+    padding: 5px;
+    background: white;
+}
+
+hr {
+    border: 1px solid #737373;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 
@@ -20,14 +57,6 @@ fieldset {
 
 legend {
   text-align: left;
-}
-
-a {
-  color: darkgreen;
-}
-
-a:hover {
-  color: green;
 }
 
 img {
