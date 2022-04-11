@@ -1,71 +1,27 @@
-@font-face {
-    font-family: 'Silkscreen';
-    src: url('https://static.tumblr.com/pjoqxze/k9nr9fi2p/silkscreen.woff2') format('woff2'),
-        url('https://static.tumblr.com/pjoqxze/PSor9fi2p/silkscreen.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
 body {
-  background: url("https://found.neocities.org/footer-skyline.webp"), linear-gradient(180deg, rgba(1,15,23,1) 0%, rgba(45,121,201,1) 55%, rgba(78,153,182,1) 100%);
-  background-repeat: repeat-x;
-  background-attachment: fixed;
-  background-position: center bottom;
-  font-family: 'Silkscreen';
-  font-smooth: never;
-  margin: 6px;
-}
-
-fieldset {
-    background: white;
-    border: 0px;
-    width: 50%;
-    margin: auto;
-}
-
-legend {
-    padding: 5px;
-    background: white;
-}
-
-hr {
-    border: 1px solid #737373;
-}
-
-
-a {
-    color: black;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-
-small {
-  color: #272727;
+  background: #734f96;
+  color: white;
+  font-family: Helvetica;
   text-align: center;
 }
 
-
-fieldset {
-  width: 25%; 
-  margin: auto;
-  text-align: left;
+h1 {
+  font-size: 36px;
 }
 
-legend {
-  text-align: left;
+.center {
+  padding: 70px 0;
 }
 
-img {
-    opacity: 0.2;
-    width: 25%;
+a {
+  color: white;
+  text-decoration: none;
 }
 
-img:hover {
-    opacity: 0.5;
-    width: 25%;
+a:hover {
+  text-decoration: underline;
+}
+
+small {
+  font-size: 24px;
 }
