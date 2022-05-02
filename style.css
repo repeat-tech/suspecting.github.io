@@ -1,21 +1,61 @@
+
+
 body {
-  background: #734f96;
+  font-family: 'hooge_05_55regular', 'MS PGothic', monospace;
+  background: black;
+}
+
+@font-face {
+    font-family: 'hooge_05_55regular';
+    src: url('/font/hooge_05_55_regular-webfont.woff2') format('woff2'),
+         url('/font/hooge_05_55_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.box {
+    border: 4px solid darkred;
+    width: 25%;
+    margin: auto;
+    background: darkred;
+}
+
+p {
+  background: darkred;
   color: white;
-  font-family: Helvetica;
-  text-align: center;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding: 2px;
 }
 
-h1 {
-  font-size: 36px;
+b {
+    font-weight: 100;
 }
 
-.center {
-  padding: 70px 0;
+.box:nth-child(2) {
+    position: absolute;
+    top: 8px;
+    left: 60px;
+}
+
+.box:nth-child(3) {
+    position: absolute;
+    top: 8px;
+    right: 60px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 a {
   color: white;
   text-decoration: none;
+  background: darkred;
 }
 
 a:hover {
@@ -23,5 +63,11 @@ a:hover {
 }
 
 small {
-  font-size: 24px;
+  color: darkred;
+  text-align: center;
+}
+
+.info {
+  background: white;
+  padding: 5px;
 }
